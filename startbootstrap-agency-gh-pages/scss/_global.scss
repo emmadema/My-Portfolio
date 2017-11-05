@@ -1,4 +1,26 @@
-// Global styling for this template
+// Global styling
+.list-social-icons {
+  a {
+    color: black;
+    &:hover {
+      color: black;
+    }
+    .fa-lg {
+      font-size: 1.75rem;
+    }
+  }
+}
+
+
+.list-icons {
+  font-size: 3rem;
+  .list-inline-item i {
+    &:hover {
+      color: pink;
+    }
+  }
+}
+
 body {
   overflow-x: hidden;
   @include body-font;
@@ -77,6 +99,8 @@ section {
     box-shadow: 0 0 0 0.2rem rgba(254, 209, 55,.5) !important;
   }
 }
+
+
 
 // Highlight color customization
 ::-moz-selection {

@@ -3,6 +3,18 @@
  * Copyright 2013-2017 Start Bootstrap
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-agency/blob/master/LICENSE)
  */
+.list-social-icons a {
+  color: black; }
+  .list-social-icons a:hover {
+    color: black; }
+  .list-social-icons a .fa-lg {
+    font-size: 1.75rem; }
+
+.list-icons {
+  font-size: 3rem; }
+  .list-icons .list-inline-item i:hover {
+    color: pink; }
+
 body {
   overflow-x: hidden;
   font-family: 'Roboto Slab', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
@@ -441,9 +453,10 @@ header.masthead {
 
 section#contact {
   background-color: #212529;
-  background-image: url("../img/map-image.png");
+  background-image: url("http://gen4congress.com/wp-content/uploads/2017/08/fancy-idea-white-marble-background-4-beautiful-marble-wallpaper-shshi-bg-pinterest-best.jpg");
   background-repeat: no-repeat;
-  background-position: center; }
+  background-position: center;
+  width: 100%; }
   section#contact .section-heading {
     color: #fff; }
   section#contact .form-group {
