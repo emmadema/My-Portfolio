@@ -3,15 +3,26 @@
  * Copyright 2013-2017 Start Bootstrap
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-agency/blob/master/LICENSE)
  */
+body {
+  overflow-x: hidden;
+  font-family: 'Roboto Slab', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
+
 .js div#preloader {
   position: fixed;
   left: 0;
   top: 0;
-  z-index: 999;
+  z-index: 1000000;
   width: 100%;
   height: 100%;
   overflow: visible;
-  background: url("../img/cat.gif") no-repeat center center; }
+  background-color: white; }
+
+#cat {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  margin-top: -50px;
+  margin-left: -100px; }
 
 .list-social-icons a {
   color: black; }
@@ -24,10 +35,6 @@
   font-size: 3rem; }
   .list-icons .list-inline-item i:hover {
     color: pink; }
-
-body {
-  overflow-x: hidden;
-  font-family: 'Roboto Slab', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
 
 p {
   line-height: 1.75; }
@@ -326,32 +333,32 @@ header.masthead {
     margin-left: -1.5px;
     content: '';
     background-color: #e9ecef; }
-  .timeline > li {
+  .timeline li {
     position: relative;
     min-height: 50px;
     margin-bottom: 50px; }
-    .timeline > li:after, .timeline > li:before {
+    .timeline li:after, .timeline li:before {
       display: table;
       content: ' '; }
-    .timeline > li:after {
+    .timeline li:after {
       clear: both; }
-    .timeline > li .timeline-panel {
+    .timeline li .timeline-panel {
       position: relative;
       float: right;
       width: 100%;
       padding: 0 20px 0 100px;
       text-align: left; }
-      .timeline > li .timeline-panel:before {
+      .timeline li .timeline-panel:before {
         right: auto;
         left: -15px;
         border-right-width: 15px;
         border-left-width: 0; }
-      .timeline > li .timeline-panel:after {
+      .timeline li .timeline-panel:after {
         right: auto;
         left: -14px;
         border-right-width: 14px;
         border-left-width: 0; }
-    .timeline > li .timeline-image {
+    .timeline li .timeline-image {
       position: absolute;
       z-index: 100;
       left: 0;
@@ -363,25 +370,25 @@ header.masthead {
       border: 7px solid #e9ecef;
       border-radius: 100%;
       background-color: #D6A99A; }
-      .timeline > li .timeline-image h4 {
+      .timeline li .timeline-image h4 {
         font-size: 10px;
         line-height: 14px;
         margin-top: 12px; }
-    .timeline > li.timeline-inverted > .timeline-panel {
+    .timeline li.timeline-inverted > .timeline-panel {
       float: right;
       padding: 0 20px 0 100px;
       text-align: left; }
-      .timeline > li.timeline-inverted > .timeline-panel:before {
+      .timeline li.timeline-inverted > .timeline-panel:before {
         right: auto;
         left: -15px;
         border-right-width: 15px;
         border-left-width: 0; }
-      .timeline > li.timeline-inverted > .timeline-panel:after {
+      .timeline li.timeline-inverted > .timeline-panel:after {
         right: auto;
         left: -14px;
         border-right-width: 14px;
         border-left-width: 0; }
-    .timeline > li:last-child {
+    .timeline li:last-child {
       margin-bottom: 0; }
   .timeline .timeline-heading h4 {
     margin-top: 0;
