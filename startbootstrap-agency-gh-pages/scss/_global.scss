@@ -1,4 +1,9 @@
 // Global styling
+body {
+  overflow-x: hidden;
+  @include body-font;
+}
+
 .js div#preloader { 
   position: fixed; 
   left: 0; 
@@ -30,11 +35,6 @@
       color: pink;
     }
   }
-}
-
-body {
-  overflow-x: hidden;
-  @include body-font;
 }
 
 p {
