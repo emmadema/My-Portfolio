@@ -1,12 +1,14 @@
-  jQuery(document).ready(function($) {  
+jQuery(document).ready(function($) {  
   // site preloader -- also uncomment the div in the header and the css style for #preloader
- $(window).on('load', function() { // makes sure the whole site is loaded 
-  $('#status').fadeOut(); // will first fade out the loading animation 
-  $('#preloader').delay(2000).fadeOut('slow'); // will fade out the white DIV that covers the website. 
-    $('body').delay(1000).css(
-      {'overflow-x':'visible'
-    });
+  $(window).on('load', function() { // makes sure the whole site is loaded 
+    $('#preloader').fadeOut('slow', function(){// will first fade out the loading animation 
+    // $('#preloader').delay(2000)
+      $(this).remove();
+    }); // will fade out the white DIV that covers the website. 
+    // $('body').delay(1000).css({
+    //   'overflow-x':'visible'
   });
+
   (function($) {
     "use strict"; // Start of use strict
 
