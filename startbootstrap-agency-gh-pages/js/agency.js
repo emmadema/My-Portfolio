@@ -1,7 +1,7 @@
 jQuery(document).ready(function($) {  
   // site preloader -- also uncomment the div in the header and the css style for #preloader
   $(window).on('load', function() { // makes sure the whole site is loaded 
-    $('#preloader').fadeOut('slow', function(){// will first fade out the loading animation 
+    $('#preloader').delay(1000).fadeOut('slow', function(){// will first fade out the loading animation 
     // $('#preloader').delay(2000)
       $(this).remove();
     }); // will fade out the white DIV that covers the website. 
