@@ -115,6 +115,7 @@ body {
     font-size: 12px;
     right: 0;
     padding: 13px;
+    font-weight: bold;
     text-transform: uppercase;
     color: white;
     border: 0;
@@ -127,7 +128,7 @@ body {
       color: #c78a76; }
   #mainNav .navbar-nav .nav-item .nav-link {
     font-size: 90%;
-    font-weight: 400;
+    font-weight: bold;
     padding: 0.75em 0;
     letter-spacing: 1px;
     color: white;
@@ -162,7 +163,7 @@ body {
 header.masthead {
   text-align: center;
   color: white;
-  background-image: url("../img/wood-coffee-iphone-notebook.jpg");
+  background-image: url("../img/fly.jpg");
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
@@ -470,7 +471,7 @@ header.masthead {
 
 section#contact {
   background-color: #212529;
-  background-image: url("http://gen4congress.com/wp-content/uploads/2017/08/fancy-idea-white-marble-background-4-beautiful-marble-wallpaper-shshi-bg-pinterest-best.jpg");
+  background-image: url("http://legato.travel/wp-content/uploads/2015/02/world-map-background-dark.jpg");
   background-repeat: no-repeat;
   background-position: center;
   width: 100%; }
