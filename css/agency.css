@@ -548,6 +548,8 @@ ul.social-buttons {
   color: #D6A99A !important; }
 
 a {
-  color: #D6A99A; }
+  color: #212529;
+  text-decoration: none; }
   a:hover, a:focus, a:active {
-    color: #c07b64; }
+    color: #c07b64 !important;
+    text-decoration: none; }
