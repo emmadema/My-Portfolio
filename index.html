@@ -61,9 +61,13 @@
             <li class="nav-item">
               <a class="nav-link js-scroll-trigger" href="#portfolio">Portfolio</a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#about">About Me</a>
+             <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#about">Work History</a>
             </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#team">About Me</a>
+            </li>
+           
             <li class="nav-item">
               <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
             </li>
@@ -84,7 +88,7 @@
           <div class="intro-lead-in splitText">I am a</div>
           <div class="intro-heading text-uppercase splitText">Front End Developer</div>
 
-          <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger menuItem" href="#services">Do Not Press</a>
+          <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger menuItem" href="#services">Learn More</a>
         </div>
       </div>
     </header>
@@ -180,7 +184,7 @@
           </div>
         </div>
         <div class="row">
-          <div class="col-md-6 col-sm-6 portfolio-item">
+          <div class="col-md-4 col-sm-4 portfolio-item">
             <a class="portfolio-link" data-toggle="modal" href="#portfolioModal2">
               <div class="portfolio-hover">
                 <div class="portfolio-hover-content">
@@ -194,7 +198,21 @@
               <p class="text-muted">MEAN Stack</p>
             </div>
           </div>
-          <div class="col-md-6 col-sm-6 portfolio-item">
+          <div class="col-md-4 col-sm-4 portfolio-item">
+            <a class="portfolio-link" data-toggle="modal" href="#portfolioModal3">
+              <div class="portfolio-hover">
+                <div class="portfolio-hover-content">
+                  <i class="fa fa-plus fa-3x"></i>
+                </div>
+              </div>
+              <img class="img-fluid" src="img/portfolio/frontPage_food.png" alt="Swipe Bite">
+            </a>
+            <div class="portfolio-caption">
+              <h4>swipe.Bite</h4>
+              <p class="text-muted">SEAN Stack</p>
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-4 portfolio-item">
             <a class="portfolio-link" data-toggle="modal" href="#portfolioModal3">
               <div class="portfolio-hover">
                 <div class="portfolio-hover-content">
@@ -208,7 +226,7 @@
               <p class="text-muted">Front End Game</p>
             </div>
           </div>
-          <div class="col-md-6 col-sm-6 portfolio-item">
+             <!-- <div class="col-md-6 col-sm-6 portfolio-item">
             <a class="portfolio-link" data-toggle="modal" href="#portfolioModal3">
               <div class="portfolio-hover">
                 <div class="portfolio-hover-content">
@@ -221,21 +239,7 @@
               <h4>Rugrats Matching</h4>
               <p class="text-muted">Front End Game</p>
             </div>
-          </div>
-             <div class="col-md-6 col-sm-6 portfolio-item">
-            <a class="portfolio-link" data-toggle="modal" href="#portfolioModal3">
-              <div class="portfolio-hover">
-                <div class="portfolio-hover-content">
-                  <i class="fa fa-plus fa-3x"></i>
-                </div>
-              </div>
-              <img class="img-fluid" src="img/portfolio/Rugrats_home.png" alt="Rugats Game">
-            </a>
-            <div class="portfolio-caption">
-              <h4>Rugrats Matching</h4>
-              <p class="text-muted">Front End Game</p>
-            </div>
-          </div>
+          </div> -->
         </div>
       </div>
     </section>
@@ -306,7 +310,7 @@
       </div>
     </section>
 
-    <!-- Team -->
+    <!-- About Me-->
     <section class="bg-light" id="team">
       <div class="container">
         <div class="row">
@@ -417,7 +421,7 @@
 
     <!-- Portfolio Modals -->
 
-    <!-- Modal 2 -->
+    <!-- My Closet -->
     <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
       <div class="modal-dialog">
         <div class="modal-content">
@@ -437,7 +441,7 @@
                   <p>Have you ever stood in front of your closet hopelessly starring into the endless void of clothes. Are you continuously late to events, because you have to try on every outfit in your closet, just to settle on the first one you picked out? If you answered yet to either of these questions then My Closet is the app for you! My Closet helps you pick an outfit based on clothing you already have in your closet. It scans the Shop Style API to find the perfect outfit based on the weather in your area. Thanks to My Closet you will never miss and event again.</p>
                   <ul class="list-inline">
                     <li>Date: October 2017</li>
-                    <li>Languages/Frameworks: HTML, CSS, JS, Jquery, NodeJS, Mongo, Express</li>
+                    <li>HTML, CSS, JS, Jquery, NodeJS, Mongo, Express</li>
                   </ul>
                   <button class="btn btn-primary" data-dismiss="modal" type="button">
                     <i class="fa fa-times"></i>
@@ -450,7 +454,42 @@
       </div>
     </div>
 
-    <!-- Modal 3 -->
+    <!-- swipe.Bite -->
+    <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+              <div class="rl"></div>
+            </div>
+          </div>
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-8 mx-auto">
+                <div class="modal-body">
+                  <!-- Project Details Go Here -->
+                  <h2 class="text-uppercase">swipe.Bite</h2>
+                  <p class="item-intro text-muted">A Tinder style app which helps you find food near you.</p>
+                  <img class="img-fluid d-block mx-auto" src="img/portfolio/main-food.png" alt="Swipe Bite">
+                  <p>Do you spend a lot of time looking for food on the go? Can you not eat at a restaurant unless you have checked all possible reviews to make sure everyone else has liked it? swipe.Bite pulls in all the restaurants near you and allows you to swipe through them. If you like a restaurant you can get directions and save it to your favorites list. </p>
+                  <ul class="list-inline">
+                    <li>Date: November 2017</li>
+                    <li>Angular 2+, ngBootstrap, NodeJS, npm, PSQL </li>
+<!--                     <li>Play The Game: </li> -->
+                  </ul>
+                  <button class="btn btn-primary" data-dismiss="modal" type="button">
+                    <i class="fa fa-times"></i>
+                    Close Project</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <!-- Rugrats -->
     <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
       <div class="modal-dialog">
         <div class="modal-content">
