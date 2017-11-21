@@ -23,21 +23,9 @@ body {
   margin-left: -100px;
 }
 
-.list-social-icons {
-  a {
-    color: black;
-    &:hover {
-      color: black;
-    }
-    .fa-lg {
-      font-size: 1.75rem;
-    }
-  }
-}
-
-
 .list-icons {
   font-size: 3rem;
+  color: $primary;
   .list-inline-item i {
     &:hover {
       color: #d6a99a;
@@ -47,17 +35,6 @@ body {
 
 p {
   line-height: 1.75;
-}
-
-a {
-  color: $primary;
-  &:hover {
-    color: darken($primary, 10%);
-  }
-}
-
-.text-primary {
-  color: $primary !important;
 }
 
 h1,
@@ -143,18 +120,3 @@ img::-moz-selection {
 body {
   -webkit-tap-highlight-color: $primary;
 }
-
-// @-webkit-keyframes typing { from { width: 0; } }
-// @-webkit-keyframes blink-caret { 50% { border-color: transparent; } }
-
-// .splitText { 
-//     text-align: center;
-//     border-right: .1em solid black;
-//     width: 16.5em; 
-//     width: 21ch;
-//     margin: 2em 1em;
-//     white-space: nowrap;
-//     overflow: hidden;
-//     -webkit-animation: typing 2s steps(21, end),
-//                blink-caret .5s step-end infinite alternate;
-// }

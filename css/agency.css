@@ -24,28 +24,14 @@ body {
   margin-top: -50px;
   margin-left: -100px; }
 
-.list-social-icons a {
-  color: black; }
-  .list-social-icons a:hover {
-    color: black; }
-  .list-social-icons a .fa-lg {
-    font-size: 1.75rem; }
-
 .list-icons {
-  font-size: 3rem; }
+  font-size: 3rem;
+  color: #D6A99A; }
   .list-icons .list-inline-item i:hover {
     color: #d6a99a; }
 
 p {
   line-height: 1.75; }
-
-a {
-  color: #D6A99A; }
-  a:hover {
-    color: #c78a76; }
-
-.text-primary {
-  color: #D6A99A !important; }
 
 h1,
 h2,
@@ -204,6 +190,7 @@ header.masthead {
       margin-bottom: 50px;
       font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif; } }
 
+/* BASE CSS FOR splitText PLUGIN */
 .service-heading {
   margin: 15px 0;
   text-transform: none; }
@@ -471,7 +458,7 @@ header.masthead {
 
 section#contact {
   background-color: #212529;
-  background-image: url("http://legato.travel/wp-content/uploads/2015/02/world-map-background-dark.jpg");
+  background-image: url("../img/map.jpg");
   background-repeat: no-repeat;
   background-position: center;
   width: 100%; }
