@@ -61,5 +61,6 @@ jQuery(document).ready(function($) {
       $(".navbar").removeClass("d-none");
     })
 
+
   })(jQuery); // End of use strict
 });
