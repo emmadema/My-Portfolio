@@ -190,6 +190,10 @@ header.masthead {
       margin-bottom: 50px;
       font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif; } }
 
+.letter {
+  display: inline-block;
+  text-align: center; }
+
 .service-heading {
   margin: 15px 0;
   text-transform: none; }
