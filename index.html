@@ -86,8 +86,8 @@
           <br>
           <br>
           <div class="intro-lead-in splitText">I am a</div>
-          <div class="intro-heading text-uppercase splitText"><!-- Front End Developer -->
-          <div class="letter">F</div>
+          <div class="intro-heading text-uppercase splitText"> Front End Developer
+        <!--   <div class="letter">F</div>
             <div class="letter">r</div>
             <div class="letter">o</div>
             <div class="letter">n</div>
@@ -104,7 +104,7 @@
             <div class="letter">o</div>
             <div class="letter">p</div>
             <div class="letter">e</div>
-            <div class="letter">r</div>
+            <div class="letter">r</div>-->
           </div>
 
           <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger menuItem" id="letters" href="#services">Learn More</a>
@@ -203,7 +203,21 @@
           </div>
         </div>
         <div class="row">
-          <div class="col-md-4 col-sm-4 portfolio-item">
+           <div class="col-md-6 col-sm-6 portfolio-item">
+            <a class="portfolio-link" data-toggle="modal" href="#portfolioModal1">
+              <div class="portfolio-hover">
+                <div class="portfolio-hover-content">
+                  <i class="fa fa-plus fa-3x"></i>
+                </div>
+              </div>
+              <img class="img-fluid" src="img/portfolio/homeHappy.png" alt="Rugats Game">
+            </a>
+            <div class="portfolio-caption">
+              <h4>Are You Happy?</h4>
+              <p class="text-muted">React | AFrame</p>
+            </div>
+          </div>
+          <div class="col-md-6 col-sm-4 portfolio-item">
             <a class="portfolio-link" data-toggle="modal" href="#portfolioModal2">
               <div class="portfolio-hover">
                 <div class="portfolio-hover-content">
@@ -217,7 +231,7 @@
               <p class="text-muted">JS | Express  | EJS | AJAX | NodeJS</p>
             </div>
           </div>
-          <div class="col-md-4 col-sm-4 portfolio-item">
+          <div class="col-md-6 col-sm-4 portfolio-item">
             <a class="portfolio-link" data-toggle="modal" href="#portfolioModal3">
               <div class="portfolio-hover">
                 <div class="portfolio-hover-content">
@@ -231,7 +245,7 @@
               <p class="text-muted">Angular 2+ | NodeJS | ngBootstrap</p>
             </div>
           </div>
-          <div class="col-md-4 col-sm-4 portfolio-item">
+          <div class="col-md-6 col-sm-4 portfolio-item">
             <a class="portfolio-link" data-toggle="modal" href="#portfolioModal4">
               <div class="portfolio-hover">
                 <div class="portfolio-hover-content">
@@ -245,20 +259,6 @@
               <p class="text-muted">HTML | CSS | JS</p>
             </div>
           </div>
-        <!--   <div class="col-md-6 col-sm-6 portfolio-item">
-            <a class="portfolio-link" data-toggle="modal" href="#portfolioModal3">
-              <div class="portfolio-hover">
-                <div class="portfolio-hover-content">
-                  <i class="fa fa-plus fa-3x"></i>
-                </div>
-              </div>
-              <img class="img-fluid" src="img/portfolio/Rugrats_home.png" alt="Rugats Game">
-            </a>
-            <div class="portfolio-caption">
-              <h4>Rugrats Matching</h4>
-              <p class="text-muted">Front End Game</p>
-            </div>
-          </div>  -->
       </div>
       </div>
     </section>
@@ -426,6 +426,40 @@
     </footer>
 
     <!-- Portfolio Modals -->
+    
+    <!--Are You Happy-->
+    <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+              <div class="rl"></div>
+            </div>
+          </div>
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-8 mx-auto">
+                <div class="modal-body"> 
+                  <!-- Project Details Go Here -->
+                  <h2 class="text-uppercase">Are You Happy?</h2>
+                  <p class="item-intro text-muted">An interactive world to help people with depression.</p>
+                  <img class="img-fluid d-block mx-auto" src="img/portfolio/sad.png" alt="">
+                  <p>Are You Happy is a site geared toward helping people with depression as well as helping others understand what it is like to live with depression. Each page of this app has a different experience. When clicking ‘yes’ on the main page it brings you to resources to help understand depression. With this page I wanted to explore a Pinterest style layout with videos you can play directly from the app. When clicking ‘no’ on the home page you are brought to a virtual world. This page is best used with virtual reality goggles. There are videos as well as cubes you can click on to bring you to other pages and videos. </p>
+                  <ul class="list-inline">
+                    <li>Date: December 2017</li>
+                    <li>React, Aframe, Webpack, SASS</li>
+                    <button><a href='https://cryptic-citadel-91160.herokuapp.com'> Check It Out </button>
+                 </ul>
+                  <button class="btn btn-primary" data-dismiss="modal" type="button">
+                    <i class="fa fa-times"></i>
+                    Close Project</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
 
     <!-- My Closet -->
   <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
@@ -529,6 +563,8 @@
         </div>
       </div>
     </div>
+
+
    
 
     <!-- Bootstrap core JavaScript -->
